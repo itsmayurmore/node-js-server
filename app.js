@@ -20,6 +20,9 @@ io.on('connection', (socket) => {
 
   })
 });
+app.route("/check").get((req,res)=>{
+  return res.json("Server Connected");
+});
 
 server.listen(3000, () => {
   console.log('listening on *:3000');
