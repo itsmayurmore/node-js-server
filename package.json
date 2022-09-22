@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app"
   },
   "author": "Mayur More",
   "license": "ISC",
@@ -15,5 +15,8 @@
   "dependencies": {
     "express": "^4.17.3",
     "socket.io": "^4.4.1"
+  },
+  "engine":{
+    "node":"16.x"
   }
 }
