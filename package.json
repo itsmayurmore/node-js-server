@@ -4,7 +4,8 @@
   "description": "Socket.IO backend of Flutter App",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Mayur More",
   "license": "ISC",
